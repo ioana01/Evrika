@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="shortcut icon" href="icons/logo_homepage.svg" type="image/x-icon"/>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div>
+                <div class="title">
+                    <img src="icons/evrika.png" alt="logo">
+                    <span class="sp1">Evrika!</span> 
+                </div>
+                <ul class="meniu">
+                        <span class="sp2">
+                                <li>
+                                    <a href="#" onclick="Contact()">Contact</a>
+                                </li>
+                        </span>
+                        <span class="sp2">
+                                <li>
+                                    <a href="#" onclick="Rezultat()">Rezultat</a>
+                                </li>
+                        </span>
+                        <span class="sp2">
+                            <li>
+                                <a href="#" onclick="FAQ()">FAQ</a>
+                            </li>
+                        </span>
+                        <span class="sp2">
+                            <li>
+                                <a href="#" onclick="Login()">Logheaza-te</a>
+                            </li>
+                        </span>
+                        <span class="sp2">
+                                <li>
+                                    <a href="#" onclick="Inscriere()">Inregistrare echipa</a> 
+                                </li>
+                        </span>
+                        <span class="sp2">
+                                <li>
+                                    <a href="#" onclick="Despre()">Despre eveniment</a>
+                                </li>
+                        </span>
+                </ul>
+                <ul class="meniu2">
+                   <span class="sp2">
+                       <li>
+                            <a ><ion-icon name="menu" class="icon" id="testerinio"></ion-icon></a>
+                       </li>
+                       <li class="dropdown-content">
+                            <a href="#" onclick="Despre()">Despre eveniment</a>
+                            <a href="#" onclick="Inscriere()">Inregistrare echipa</a>
+                            <a href="#" onclick="Login()">Logheaza-te</a>
+                            <a href="#" onclick="FAQ()">FAQ</a>
+                            <a href="#" onclick="Rezultat()">Rezultat</a>
+                            <a href="#" onclick="Contact()">Contact</a>
+                       </li>
+                   </span> 
+                </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="login">
+        <img src="icons/logo Evrika.png" alt="logo" class="logo">
+        <form class="form2">
+            <label for="email" class="textDesign">Email</label> <br>
+            <input type="text" id="email" name="email"> <br>
+            <label for="password" class="textDesign">Password</label> <br>
+            <input type="password" id="password" name="password"> <br>
+            <div class="buttons">
+                <a href="#" class="btn b1">Login</a> <br>
+            </div>        
+            <div class="buttons">
+                <a href="#" class="btn b2">Sign up</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="Evrika.js"></script>
+</body>
+</html>
